@@ -1,0 +1,41 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+.container{
+    max-width: 960px;
+    display: flex;
+    background-color: #aeaeae;
+    margin: auto;
+}
+.profile{
+    max-width: 350px;
+    background-color: #39383a;
+    color: #ababab;
+    
+}
+.profile-photo{
+    height: 230px;
+    background-image: url('./assets/photo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.profile-text{
+    font-size: 13px;
+    line-height: 24.19px;
+}
+.profile-info{
+    padding: 50px 30px 70px 30px;
+}
+.heading-light{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 16px;
+    color: #fff;
+    border-bottom: 2px #5a5a5a dashed;
+}
