@@ -26,6 +26,7 @@ html{
 .profile-text{
     font-size: 13px;
     line-height: 24.19px;
+    margin-bottom: 50px;
 }
 .profile-info{
     padding: 50px 30px 70px 30px;
@@ -38,4 +39,83 @@ html{
     padding-bottom: 16px;
     color: #fff;
     border-bottom: 2px #5a5a5a dashed;
+}
+.contacts{
+    margin-bottom: 70px;
+}
+.contacts-title{
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+i{
+    margin-right: 12px;
+}
+.contacts-item{
+    padding-bottom: 25px;
+    border-bottom: 2px #5a5a5a dashed;
+}
+.contacts-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #ababab;
+    margin-left: 30px;
+    text-decoration: none;
+    font-style: normal;
+}
+.language{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.languages:nth-child(3){
+    margin-bottom: 0;
+}
+.languages{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100px;
+    border: 6px solid #5c5c5c;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.language-text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #ababab;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.lenguage-per{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    line-height: 20.97px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.lines{
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.line{
+    margin-bottom: 21px;
+    display: block;
+    background-color: #5c5c5c;
+    height: 2px;
+    width: 91px;
+}
+.line:nth-child(2){
+    margin-left: 15px;
+    width: 100px;
 }
