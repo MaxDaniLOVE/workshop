@@ -4,14 +4,19 @@ html{
 *, *:before, *:after{
     box-sizing: inherit;
 }
+body{
+    background-color: rgb(76, 179, 150);
+}
 .container{
     max-width: 960px;
     display: flex;
     background-color: #aeaeae;
     margin: auto;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px rgb(40, 94, 78)
 }
 .profile{
-    max-width: 350px;
+    flex-basis: 35%;
     background-color: #39383a;
     color: #ababab;
     
@@ -50,7 +55,7 @@ html{
     font-weight: 400;
     font-family: "Open Sans", sans-serif;
 }
-i{
+i.fas {
     margin-right: 12px;
 }
 .contacts-item{
@@ -119,3 +124,95 @@ i{
     margin-left: 15px;
     width: 100px;
 }
+.resume{
+    flex-basis: 62%;
+    padding: 23px 26px;
+    background-color: #fff;
+}
+.resume-wrap{
+    padding: 35px 55px;
+    min-height: 100%;
+    border: 1px solid rgba(168, 168, 168, 0.44);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid #39383a;
+}
+i.fas.fa-anchor{
+    margin: 0;
+    font-size: 40px;
+}
+.logo-lines{
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+.logo-line{
+    margin-bottom: 17px;
+    width: 43px;
+    height: 2px;
+    background-color: #39383a;
+}
+.logo-line:nth-child(3){
+    margin-bottom: 0;
+}
+.logo-right .logo-line:nth-child(2){
+    width: 55px;
+    margin-left: 25px;
+}
+.logo-left .logo-line:nth-child(2){
+    width: 55px;
+    margin-right: 25px;
+}
+.about{
+
+    text-align: center;
+}
+.name{
+    color: #39383a;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 15.75px;
+}
+.position{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #808080;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.72px;
+}
+.about-address{
+    color: #39383a;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.83px;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+.about-contacts{
+    color: #39383a;
+    font-family: Roboto;
+    font-size: 12px;
+}
+.about-links{
+    color: #39383a;
+    text-decoration: none;
+}
+
