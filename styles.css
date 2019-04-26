@@ -326,6 +326,37 @@ i.fas.fa-anchor{
     }
 }
 @media (max-width: 992px){
+    .languages{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .language-text{
+        font-size: 8px;
+        text-transform: uppercase;
+    }
+    .lenguage-per{
+        font-size: 11px;
+    }
+    .skill{
+        font-size: 10px;
+    }
+    .level{
+        top: 2px;
+    }
+    .lines{
+        padding-top: 15px;
+    }
+    .line{
+        margin-bottom: 15px;
+        width: 50px;
+    }
+    .line:nth-child(2){
+        width: 70px;
+    }
+}
+
+@media (max-width: 768px){
     .container{
         flex-direction: column;
     }
@@ -337,11 +368,8 @@ i.fas.fa-anchor{
         display: none;
     }
     .profile-photo{
-        height: 400px;
+        width: 400px; 
     }
-}
-@media (max-width: 768px){
-    
 }
 @media (max-width: 567px){
     .logo-line{
