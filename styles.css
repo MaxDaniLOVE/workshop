@@ -255,7 +255,6 @@ i.fas.fa-anchor{
     font-weight: 700;
     text-transform: uppercase;
 }
-
 .resume-header-date{
     margin-left: 40px;
     margin-bottom: 20px;
@@ -302,6 +301,7 @@ i.fas.fa-anchor{
     height: 10px;
     border: 1px solid #39383a;
     position: relative;
+    top: 3px;
 }
 .level:before{
     position: absolute;
@@ -317,6 +317,65 @@ i.fas.fa-anchor{
 .level90:before{
     width: 90%;
 }
-.level60:before{
-    width: 60%;
+.level50:before{
+    width: 50%;
+}
+@media (max-width: 1024px){
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        flex-direction: column;
+    }
+    .language{
+        padding-left: 30px; 
+        justify-content: center;
+    }
+    .line, .line:nth-child(2){
+        display: none;
+    }
+    .profile-photo{
+        height: 400px;
+    }
+}
+@media (max-width: 768px){
+    
+}
+@media (max-width: 567px){
+    .logo-line{
+        width: 20px;
+    }
+    .logo-right .logo-line:nth-child(2){
+        width: 32px;
+    }
+    .logo-left .logo-line:nth-child(2){
+        width: 32px;
+    }
+    .level{
+        width: 60%;
+    }
+    .logo-img{
+        height: 50px;
+        width: 50px;
+    }
+    i.fas.fa-anchor{
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px){
+    .logo-line, .logo-right .logo-line:nth-child(2), .logo-left .logo-line:nth-child(2){
+        display: none;
+    }
+    .level{
+        width: 50%;
+    }
+    .logo-img{
+        height: 30px;
+        width: 30px;
+    }
+    i.fas.fa-anchor{
+        font-size: 15px;
+    }
 }
