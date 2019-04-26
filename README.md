@@ -1,2 +1,2 @@
 # workshop
-https://maxdanilove.github.io/workshop/
+https://maxdanilove.github.io/workshop/index.html
