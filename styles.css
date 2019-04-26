@@ -29,6 +29,7 @@ body{
     background-repeat: no-repeat;
 }
 .profile-text{
+    font-family: Roboto;
     font-size: 13px;
     line-height: 24.19px;
     margin-bottom: 50px;
@@ -176,7 +177,8 @@ i.fas.fa-anchor{
     margin-right: 25px;
 }
 .about{
-
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(168, 168, 168, 0.44);
     text-align: center;
 }
 .name{
@@ -215,4 +217,106 @@ i.fas.fa-anchor{
     color: #39383a;
     text-decoration: none;
 }
+.expirience{
+    margin-top: 30px;
+}
+.heading-dark{
+    margin: 0;
+    color: #39383a;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    letter-spacing: 1.04px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(168, 168, 168, 0.44);
+}
+.resume-info{
+    padding: 0;
+    position: relative;
+}
+.info-wrap{
+    border-bottom: 2px #ececec dashed;
+}
+.info-wrap:before{
+    position: absolute;
+    content: ' ';
+    top: 6px;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #39383a;
+}
+.resume-header-info{
+    margin: 20px 0 10px 40px;
+    color: #39383a;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
+.resume-header-date{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    color: #39383a;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.68px;
+}
+.resume-info-text{
+    margin-left: 40px;
+    margin-bottom: 11px;
+    color: #777777;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+    
+}
+.none-border{
+    border: none;
+}
+.heading-skills{
+    margin-bottom: 25px;
+}
+.skills-list{
+    list-style: none;
+    padding: 0;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    color: #39383a;
+    font-family: "Open Sans";
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.73px;
+}
+.level{
+    width: 75%;
+    height: 10px;
+    border: 1px solid #39383a;
+    position: relative;
+}
+.level:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    background-color: #898989;
+}
+.level80:before{
+    width: 80%;
+}
+.level90:before{
+    width: 90%;
+}
+.level50:before{
+    width: 50%;
+}
