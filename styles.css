@@ -368,7 +368,7 @@ i.fas.fa-anchor{
         display: none;
     }
     .profile-photo{
-        width: 400px; 
+        height: 400px; 
     }
 }
 @media (max-width: 567px){
